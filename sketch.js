@@ -51,7 +51,7 @@ function draw() {
    grass.y=380;
   }
   
-  if (grass.y>0){
+  if (grass.y<0){
     background("red");
     textSize(30);
     fill("black");
